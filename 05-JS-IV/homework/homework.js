@@ -159,7 +159,7 @@ function agregarMetodoCalculoDescuento(producto) {
   // Tu código:
   producto. calcularPrecioDescuento = function() //para agregar un metodo se hace con'.'
   {
-    var descuento = this.precio -(this.precio * this.porcentajeDeDescuento); ///se usa this porque estamos dentro de una funcion en el objeto producto. por lo tanto hace referencia al objeto
+    var descuento = this.precio -(this.precio * this.porcentajeDeDescuento); ///se usa this porque estamos dentro de una funcion en el objeto producto. por lo tanto hace referencia al objeto (no a pa propiedad)
     return descuento;
   }
   return producto;
