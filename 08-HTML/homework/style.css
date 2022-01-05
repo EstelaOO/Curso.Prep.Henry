@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Work+Sans&display=swap');
+:root{
+    --background-color:#000; /*color de fondo*/
+    --primary-color: burlywood;	/*color primario*/
+    --highlight-color: #16FFBD;/*color de resaltado*/
+   
+}
+body{
+    background-color: var(--background-color);
+    font-family:  'Work Sans', 'Barlow Condensed',Arial, Helvetica, sans-serif;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+    
+}
+#container {
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:  url("../pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position-x: right;
+}
+::selection{/*Color de seleccionado*/
+    background-color: var(--highlight-color);
+}
+a{
+    color: var(--primary-color);/*Color de todo los hipervinculos sea la misma para todas las variables*/
+    text-decoration: none;
+    padding: 10px; /*para que la zona de manejo no este tan pegado al tecto*/
+    transition: color 0.2s ease-in-out/*cambia de color 0.2 segundos, con una tracision*/
+}
+a:hover{
+    color: var(--highlight-color);/*hover resaltado*/
+}
+h1,h2 {
+    color: chocolate;
+    font-size: 30px;
+    text-align: center;/*alineacion*/
+
+}
+h3,h4{
+    font-size: 1.5rem;/*tamaño*/
+    text-align: center;/*alineacion*/
+    color: var(--primary-color);/*Color de todo los hipervinculos sea la misma para todas las variables*/
+
+}
+img{
+    width: 450px;
+}
+ul{
+    list-style: none;
+}
+#thirdDiv{
+    background-color:var(--primary-color);
+    padding: 15px;
+    border-radius: 5%;
+    height: 560px;
+    width: 600px;
+}
+#spanId{
+    font-size: 18px;
+    color: var(--primary-color);
+}
