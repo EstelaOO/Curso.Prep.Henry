@@ -134,7 +134,9 @@ Como mencionamos anteriormente en la sección de la propiedad "display", uno de 
 
 ### "justify-content" y "align-items"
 
-Ahora que nuestro contenedor (elemento) es "flex", podemos imaginarlo como una grilla con columnas que van de izquierdo a derecha y filas que van de arriba a abajo. Podemos usar las propiedades "justify-content" y "align-items" para decirle al contenedor dónde queremos que estén los elementos en la grilla. En principio, "justify-content" aplicará al movimiento de izquierda a derecha (fila), y "align-items" lo hará de arriba a abajo (columna). Tenemos unas reglas que debemos aplicar a cada una de estas reglas:
+Ahora que nuestro contenedor (elemento) es "flex", podemos imaginarlo como una grilla con columnas que van de izquierdo a derecha y filas que van de arriba a abajo. Podemos usar las propiedades "justify-content"y "align-items" para decirle al contenedor dónde queremos que estén los elementos en la grilla. En principio, `justify-content` =>`(fila)` aplicará al movimiento de izquierda a derecha , y 
+`align-items`     => `(columna)` lo hará de arriba a abajo . 
+Tenemos unas reglas que debemos aplicar a cada una de estas reglas:
 
 * `center`: centrará el elemento (o grupo de elementos) a lo largo de un eje en el que aplica esta regla.
 * `flex-start`: Este es el valor por defecto de cada "flex box", mostrará todos los elementos en un grupo al comienzo de una fila o columna.
